@@ -1,0 +1,115 @@
+.multilevel_selectbox .list {
+  display: none;
+  
+  -webkit-border-radius: 5px;  
+  -khtml-border-radius: 5px;  
+  -moz-border-radius: 5px;  
+  border-radius: 5px;
+  
+  box-shadow: black 2px 2px 10px; 
+  -webkit-box-shadow: black 2px 2px 10px;
+  -moz-box-shadow: black 2px 2px 10px;
+}
+
+.multilevel_selectbox .list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.multilevel_selectbox .list ul li {
+  margin-top: 2px;
+}
+
+.multilevel_selectbox .list ul li>span {
+  padding: 6px 5px 8px 0;
+  background-color: transparent;
+  background-image: url('../images/icons/enter.png');
+  background-repeat: no-repeat;
+  position: relative;
+  color: #000000;
+}
+
+.multilevel_selectbox .list .select-box>li>span {
+  padding-left: 5px;
+  padding-right: 5px;
+  background: none;
+}
+
+.multilevel_selectbox .list ul li>span { padding-left: 15px; background-position: 4px center; }
+.multilevel_selectbox .list ul li li>span { padding-left: 30px; background-position: 19px center; }
+.multilevel_selectbox .list ul li li li>span { padding-left: 45px; background-position: 34px center; }
+.multilevel_selectbox .list ul li li li li>span { padding-left: 60px; background-position: 49px center; }
+.multilevel_selectbox .list ul li li li li li>span { padding-left: 75px; background-position: 64px center; }
+
+
+.multilevel_selectbox .list li span.hover {
+  background-color: #375b91;
+  color: #ffffff;
+}
+
+.multilevel_selectbox .list li.selected>span {
+  background-color: #8e171a;
+  color: #ffffff;
+}
+
+.multilevel_selectbox .list ul li.disabled>span { color: #999999; }
+
+.multilevel_selectbox .selected_label {
+  width: 210px;
+  background-color: #ffffff;
+  background-image: url('../images/icons/arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  
+  
+  padding: 6px;
+  border: 1px solid #cccccc;
+  
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  
+  
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.multilevel_selectbox .selected_label.opened {
+  background-image: url('../images/icons/arrow-up.png');
+  
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.multilevel_selectbox .selected_label.disabled {
+  background-image: none;
+  background-color: #efefef;
+  color: #666666;
+}
+
+.multilevel_selectbox .list .search input {
+  border: 1px solid #d9e6f0;
+  background-color: #ffffff;
+  background-image: url('../images/form-input.gif');
+  background-position: left top;
+  background-repeat: repeat-x;
+  padding: 2px;
+}
+
+.multilevel_selectbox .reset {
+  padding: 2px;
+  width: 18px;
+  text-indent: -9999px;
+  background-color: #ffffff;
+  background-image: url('../images/icons/cross_select_box.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}

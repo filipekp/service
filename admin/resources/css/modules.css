@@ -1,0 +1,70 @@
+form.filter input.filter-icon {  
+  border: 0 none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.pagination {
+  margin: 0px;
+}
+
+table .icon {
+  width: 20px;
+  text-align: center;
+}
+
+.portlet-title .caption a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.mandatory {
+  float: right;
+}
+
+tfoot.summary {
+  background-color: #ffaaaa;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.tleft { text-align: left; }
+.tcenter { text-align: center; }
+.tright { text-align: right; }
+
+.btn-group > .btn {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.btn-group > span.input {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.portlet-title > .actions > span.input input.mini {
+  width: 56px;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  top: -1px;
+  font-size: 11px !important;
+  height: 19px;
+}
+
+.form-actions.left, .form-actions.center, .form-actions.right { padding-left: 20px; }
+.form-actions.left { text-align: left; }
+.form-actions.center { text-align: center; }
+.form-actions.right { text-align: right; }
+
+.header .nav > li { line-height: 24px; }
+
+.header .nav > li.dropdown.user .dropdown-toggle .username {
+  position: relative;
+  top: -1px;
+}

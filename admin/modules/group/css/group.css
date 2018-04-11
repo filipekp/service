@@ -1,0 +1,42 @@
+.rights ul {
+  margin: 6px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.rights ul li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.rights .module_name {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.rights .module_name:first-child {
+  margin-top: 0px;
+}
+
+.rights .controls_checker {
+  font-size: 10px;
+  color: #999999;
+}
+
+.rights .controls_checker span {
+  cursor: pointer;
+}
+
+.rights span.activity_tag {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-weight: bold;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

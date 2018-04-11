@@ -1,0 +1,88 @@
+tr.unactive *:not([class^="tooltip"]) {
+  color: #999999;
+}
+
+tr.old *:not([class^="tooltip"]) {
+  color: #3590c1;
+  font-style: italic;
+}
+
+tr.old .tooltip-inner {
+  font-style: normal;
+}
+
+tr.old [class^="icon-"] {
+  font-style: normal;
+}
+
+tr.old .label {
+  color: #ffffff;
+}
+
+.visibility [class^="icon-eye"] {
+  color: #1b8500;
+  text-shadow: 3px 3px 8px rgba(150, 150, 150, 1);
+}
+
+.visibility .icon-eye-close {
+  color: #E02222;
+}
+
+label .profit input[type="text"] {
+  padding: 1px 3px !important;
+  height: auto !important;
+  line-height: normal !important;
+  width: 30px;
+  margin-left: 20px;
+}
+
+.column_1 {
+  border-right: 0 none !important;
+}
+
+.column_1b {
+  width: 85px;
+  border-left: 0 none !important;
+  white-space: nowrap;
+}
+
+[class^="tooltip"] {
+  white-space: normal;
+  text-align: justify;
+}
+
+.column_1b i {
+  display: inline-block;
+  text-align: center;
+  width: 16px;
+  font-size: 16px;
+  position: relative;
+  top: 2px;
+  color: #f6bb42 !important;
+}
+
+.column_1b i, .column_1b img {
+  margin: 0 2px;
+}
+
+.column_1b i.icon-pushpin {
+  color: #e02222 !important;
+}
+
+a.web {
+  color: #e02222 !important;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+a.web:hover {
+  text-decoration: none;
+}
+
+#ui-datepicker-div {
+  margin-top: 3px;
+}
+
+.ui-autocomplete .ui-menu-item {
+  padding-right: 30px;
+}

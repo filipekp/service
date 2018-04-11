@@ -1,0 +1,34 @@
+/* 
+    Document   : mathjax
+    Created on : 26 juil. 2011, 19:42:09
+    Author     : etienne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.mcemathdisplaystyle {
+    display: block;
+    text-align:center;
+}
+
+.mcemathedit {
+/*    position: relative;*/
+/*     border: 1px solid red; */
+/*     background-color: yellow; */
+    font-size : larger;
+    font-weight: bold;
+	color : blueviolet;
+/*     margin: 0px 5px; */
+}
+
+#mcemathjaxbox {
+    position:fixed;
+    display:block;
+    right:5px;
+    top:5px;
+    z-index:10;
+    background-color:#bfbfc4;
+    padding:10px;
+    border: 1px solid black;
+    font-size: 150%;
+}

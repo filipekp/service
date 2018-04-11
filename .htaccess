@@ -1,0 +1,12 @@
+php_flag "output_buffering" Off
+
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^vyzadany-feed/(.+)$ xml/demanded/$1 [L]
+RewriteRule ^vyzadani-feedu/(.+)$ feed-on-demand.php?identification=$1 [L]
+
+# presmerovani vseho na index
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?page=$1 [QSA]
